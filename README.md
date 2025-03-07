@@ -74,8 +74,8 @@ npm run dev
 GET http://localhost:8000/patient/+12023911719
 ```
 - **Response Example:**
-   <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-  <img src="img/Get Patient Information.png" alt="Screenshot 1" width="300"/>
+   <div>
+  <img src="img/Get Patient Information.png" alt="Screenshot 1" height = "700" width="550"/>
 </div>
 
 ### Log a VoIP Call
@@ -92,7 +92,7 @@ GET http://localhost:8000/patient/+12023911719
 ```
 - **Response Example:**
    <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-  <img src="img/Log a VoIP Call.png" alt="Screenshot 1" width="400"/>
+  <img src="img/Log a VoIP Call.png" alt="Screenshot 1" height = "250" width="900"/>
 </div>
 
 ### Retrieve Call Logs
@@ -104,7 +104,7 @@ GET http://localhost:8000/calls/01956e7f-7a17-7118-a972-bac3fac33723
 - **Response Example (Multiple Logs):**
 
    <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-  <img src="img/Retrieve Call Logs.png" alt="Screenshot 1" width="400"/>
+  <img src="img/Retrieve Call Logs.png" alt="Screenshot 1" height = "300" width="600"/>
 </div>
 
 ---
@@ -120,8 +120,8 @@ GET http://localhost:8000/calls/01956e7f-7a17-7118-a972-bac3fac33723
 - When a call occurs, Twilio **captures call details**.
 - The backend **logs the call** as a `Communication` resource in Medplum.
 
-   <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-  <img src="img/resource in Medplum.png" alt="Screenshot 1" width="400"/>
+   <div>
+  <img src="img/resource in Medplum.png" alt="Screenshot 1" height = "350" width="700"/>
 </div>
 
 ### 3. Retrieve Call Logs
@@ -130,7 +130,7 @@ GET http://localhost:8000/calls/01956e7f-7a17-7118-a972-bac3fac33723
 - The logs are returned and displayed on the frontend.
 
    <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-  <img src="img/frontend.png" alt="Screenshot 1" width="400"/>
+  <img src="img/frontend.png" alt="Screenshot 1"height = "300" width="400"/>
 </div>
 
 ---
